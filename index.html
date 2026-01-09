@@ -27387,13 +27387,15 @@ document.getElementById("moveInput").addEventListener("input", function () {
   if (word.length < 2) return;
 
   moveTimer = setTimeout(() => {
+    console.log("Searching for move:", word);
     const hit = pokemonData.filter(p =>
       Array.isArray(p.moves) &&
       p.moves.some(m => m === word || m.includes(word))
     );
+    console.log("Found Pokemon:", hit.length);
 
     if (hit.length === 0) {
-      result.innerHTML = "<li>候補なし</li>";
+      result.innerHTML = "<li>候補なし（" + pokemonData.length + "体中0体）</li>";
       return;
     }
 
