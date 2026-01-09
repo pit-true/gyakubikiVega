@@ -27389,7 +27389,7 @@ document.getElementById("moveInput").addEventListener("input", function () {
   moveTimer = setTimeout(() => {
     const hit = pokemonData.filter(p =>
       Array.isArray(p.moves) &&
-      p.moves.some(m => m.includes(word))
+      p.moves.some(m => m === word || m.includes(word))
     );
 
     if (hit.length === 0) {
@@ -27455,7 +27455,7 @@ document.getElementById("pokemonInput").addEventListener("input", function () {
         // Create detail div
         const detailDiv = document.createElement("div");
         detailDiv.className = "move-detail";
-        detailDiv.textContent = moveDetails[moveName].description;
+        detailDiv.textContent = moveDetails[moveName].formatted_description || moveDetails[moveName].description;
         
         // Toggle on click
         span.addEventListener("click", function() {
