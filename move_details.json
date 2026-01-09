@@ -2359,412 +2359,471 @@
       "そらをとぶ",
       "威力：70→90"
     ],
-    "description": "威力：70→90"
+    "description": "威力：70→90",
+    "formatted_description": "威力：70→90"
   },
   "しめつける": {
     "cells": [
       "しめつける",
       "命中：75→85"
     ],
-    "description": "命中：75→85"
+    "description": "命中：75→85",
+    "formatted_description": "命中：75→85"
   },
   "つるのムチ": {
     "cells": [
       "つるのムチ",
       "PP：10→15"
     ],
-    "description": "PP：10→15"
+    "description": "PP：10→15",
+    "formatted_description": "PP：10→15"
   },
   "とびげり": {
     "cells": [
       "とびげり",
       "威力：70→100PP：25→10"
     ],
-    "description": "威力：70→100PP：25→10"
+    "description": "威力：70→100PP：25→10",
+    "formatted_description": "威力：70→100PP：25→10"
   },
   "たいあたり": {
     "cells": [
       "たいあたり",
       "威力：35→50命中：95→100"
     ],
-    "description": "威力：35→50命中：95→100"
+    "description": "威力：35→50命中：95→100",
+    "formatted_description": "威力：35→50命中：95→100"
   },
   "まきつく": {
     "cells": [
       "まきつく",
       "命中：85→90"
     ],
-    "description": "命中：85→90"
+    "description": "命中：85→90",
+    "formatted_description": "命中：85→90"
   },
   "あばれる": {
     "cells": [
       "あばれる",
       "威力：90→120PP：20→10"
     ],
-    "description": "威力：90→120PP：20→10"
+    "description": "威力：90→120PP：20→10",
+    "formatted_description": "威力：90→120PP：20→10"
   },
   "かなしばり": {
     "cells": [
       "かなしばり",
       "命中：55→100"
     ],
-    "description": "命中：55→100"
+    "description": "命中：55→100",
+    "formatted_description": "命中：55→100"
   },
   "ようかいえき": {
     "cells": [
       "ようかいえき",
       "効果：防御↓10%→特防↓10%"
     ],
-    "description": "効果：防御↓10%→特防↓10%"
+    "description": "効果：防御↓10%→特防↓10%",
+    "formatted_description": "効果：防御↓10%→特防↓10%"
   },
   "なみのり": {
     "cells": [
       "なみのり",
       "対象：相手二体→自分以外"
     ],
-    "description": "対象：相手二体→自分以外"
+    "description": "対象：相手二体→自分以外",
+    "formatted_description": "対象：相手二体→自分以外"
   },
   "ふぶき": {
     "cells": [
       "ふぶき",
       "効果：氷10%→氷10%　霰時必中"
     ],
-    "description": "効果：氷10%→氷10%　霰時必中"
+    "description": "効果：氷10%→氷10%　霰時必中",
+    "formatted_description": "効果：氷10%→氷10%　霰時必中"
   },
   "すいとる": {
     "cells": [
       "すいとる",
       "PP：20→25"
     ],
-    "description": "PP：20→25"
+    "description": "PP：20→25",
+    "formatted_description": "PP：20→25"
   },
   "メガドレイン": {
     "cells": [
       "メガドレイン",
       "PP：10→15"
     ],
-    "description": "PP：10→15"
+    "description": "PP：10→15",
+    "formatted_description": "PP：10→15"
   },
   "せいちょう": {
     "cells": [
       "せいちょう",
       "効果：特攻↑→攻撃特攻↑　晴れ時攻撃特攻↑↑"
     ],
-    "description": "効果：特攻↑→攻撃特攻↑　晴れ時攻撃特攻↑↑"
+    "description": "効果：特攻↑→攻撃特攻↑　晴れ時攻撃特攻↑↑",
+    "formatted_description": "効果：特攻↑→攻撃特攻↑　晴れ時攻撃特攻↑↑"
   },
   "はなびらのまい": {
     "cells": [
       "はなびらのまい",
       "威力：70→120PP：20→10"
     ],
-    "description": "威力：70→120PP：20→10"
+    "description": "威力：70→120PP：20→10",
+    "formatted_description": "威力：70→120PP：20→10"
   },
   "ほのおのうず": {
     "cells": [
       "ほのおのうず",
       "威力：15→35命中：70→85"
     ],
-    "description": "威力：15→35命中：70→85"
+    "description": "威力：15→35命中：70→85",
+    "formatted_description": "威力：15→35命中：70→85"
   },
   "あなをほる": {
     "cells": [
       "あなをほる",
       "威力：60→80"
     ],
-    "description": "威力：60→80"
+    "description": "威力：60→80",
+    "formatted_description": "威力：60→80"
   },
   "どくどく": {
     "cells": [
       "どくどく",
       "命中：85→90"
     ],
-    "description": "命中：85→90"
+    "description": "命中：85→90",
+    "formatted_description": "命中：85→90"
   },
   "じこさいせい": {
     "cells": [
       "じこさいせい",
       "PP：20→10"
     ],
-    "description": "PP：20→10"
+    "description": "PP：20→10",
+    "formatted_description": "PP：20→10"
   },
   "ちいさくなる": {
     "cells": [
       "ちいさくなる",
       "効果：回避↑→回避↑↑"
     ],
-    "description": "効果：回避↑→回避↑↑"
+    "description": "効果：回避↑→回避↑↑",
+    "formatted_description": "効果：回避↑→回避↑↑"
   },
   "がまん": {
     "cells": [
       "がまん",
       "優先度：0→+1"
     ],
-    "description": "優先度：0→+1"
+    "description": "優先度：0→+1",
+    "formatted_description": "優先度：0→+1"
   },
   "たきのぼり": {
     "cells": [
       "たきのぼり",
       "効果：なし→怯み20%"
     ],
-    "description": "効果：なし→怯み20%"
+    "description": "効果：なし→怯み20%",
+    "formatted_description": "効果：なし→怯み20%"
   },
   "からではさむ": {
     "cells": [
       "からではさむ",
       "命中：75→85PP：10→15"
     ],
-    "description": "命中：75→85PP：10→15"
+    "description": "命中：75→85PP：10→15",
+    "formatted_description": "命中：75→85PP：10→15"
   },
   "とびひざげり": {
     "cells": [
       "とびひざげり",
       "威力：85→130PP：20→10"
     ],
-    "description": "威力：85→130PP：20→10"
+    "description": "威力：85→130PP：20→10",
+    "formatted_description": "威力：85→130PP：20→10"
   },
   "へびにらみ": {
     "cells": [
       "へびにらみ",
       "命中：75→90"
     ],
-    "description": "命中：75→90"
+    "description": "命中：75→90",
+    "formatted_description": "命中：75→90"
   },
   "どくガス": {
     "cells": [
       "どくガス",
       "命中：55→80対象：一体選択→相手二体"
     ],
-    "description": "命中：55→80対象：一体選択→相手二体"
+    "description": "命中：55→80対象：一体選択→相手二体",
+    "formatted_description": "命中：55→80対象：一体選択→相手二体"
   },
   "フラッシュ": {
     "cells": [
       "フラッシュ",
       "命中：70→100"
     ],
-    "description": "命中：70→100"
+    "description": "命中：70→100",
+    "formatted_description": "命中：70→100"
   },
   "クラブハンマー": {
     "cells": [
       "クラブハンマー",
       "命中：85→90"
     ],
-    "description": "命中：85→90"
+    "description": "命中：85→90",
+    "formatted_description": "命中：85→90"
   },
   "わたほうし": {
     "cells": [
       "わたほうし",
       "命中：85→100"
     ],
-    "description": "命中：85→100"
+    "description": "命中：85→100",
+    "formatted_description": "命中：85→100"
   },
   "まもる": {
     "cells": [
       "まもる",
       "優先度：+3→+4"
     ],
-    "description": "優先度：+3→+4"
+    "description": "優先度：+3→+4",
+    "formatted_description": "優先度：+3→+4"
   },
   "こわいかお": {
     "cells": [
       "こわいかお",
       "命中：90→100"
     ],
-    "description": "命中：90→100"
+    "description": "命中：90→100",
+    "formatted_description": "命中：90→100"
   },
   "だましうち": {
     "cells": [
       "だましうち",
       "効果：非接触→接触"
     ],
-    "description": "効果：非接触→接触"
+    "description": "効果：非接触→接触",
+    "formatted_description": "効果：非接触→接触"
   },
   "でんじほう": {
     "cells": [
       "でんじほう",
       "威力：100→120"
     ],
-    "description": "威力：100→120"
+    "description": "威力：100→120",
+    "formatted_description": "威力：100→120"
   },
   "みきり": {
     "cells": [
       "みきり",
       "優先度：+3→+4"
     ],
-    "description": "優先度：+3→+4"
+    "description": "優先度：+3→+4",
+    "formatted_description": "優先度：+3→+4"
   },
   "ボーンラッシュ": {
     "cells": [
       "ボーンラッシュ",
       "命中：80→90"
     ],
-    "description": "命中：80→90"
+    "description": "命中：80→90",
+    "formatted_description": "命中：80→90"
   },
   "げきりん": {
     "cells": [
       "げきりん",
       "威力：90→120PP：15→10"
     ],
-    "description": "威力：90→120PP：15→10"
+    "description": "威力：90→120PP：15→10",
+    "formatted_description": "威力：90→120PP：15→10"
   },
   "ギガドレイン": {
     "cells": [
       "ギガドレイン",
       "威力：60→75PP：5→10"
     ],
-    "description": "威力：60→75PP：5→10"
+    "description": "威力：60→75PP：5→10",
+    "formatted_description": "威力：60→75PP：5→10"
   },
   "こらえる": {
     "cells": [
       "こらえる",
       "優先度：+3→+4"
     ],
-    "description": "優先度：+3→+4"
+    "description": "優先度：+3→+4",
+    "formatted_description": "優先度：+3→+4"
   },
   "れんぞくぎり": {
     "cells": [
       "れんぞくぎり",
       "威力：10→20"
     ],
-    "description": "威力：10→20"
+    "description": "威力：10→20",
+    "formatted_description": "威力：10→20"
   },
   "かみくだく": {
     "cells": [
       "かみくだく",
       "効果：特防↓20%→防御↓20%"
     ],
-    "description": "効果：特防↓20%→防御↓20%"
+    "description": "効果：特防↓20%→防御↓20%",
+    "formatted_description": "効果：特防↓20%→防御↓20%"
   },
   "しんそく": {
     "cells": [
       "しんそく",
       "優先度：+1→+2"
     ],
-    "description": "優先度：+1→+2"
+    "description": "優先度：+1→+2",
+    "formatted_description": "優先度：+1→+2"
   },
   "げんしのちから": {
     "cells": [
       "げんしのちから",
       "効果：接触→非接触"
     ],
-    "description": "効果：接触→非接触"
+    "description": "効果：接触→非接触",
+    "formatted_description": "効果：接触→非接触"
   },
   "みらいよち": {
     "cells": [
       "みらいよち",
       "威力：80→100命中：90→100PP：15→10"
     ],
-    "description": "威力：80→100命中：90→100PP：15→10"
+    "description": "威力：80→100命中：90→100PP：15→10",
+    "formatted_description": "威力：80→100命中：90→100PP：15→10"
   },
   "いわくだき": {
     "cells": [
       "いわくだき",
       "威力：20→40"
     ],
-    "description": "威力：20→40"
+    "description": "威力：20→40",
+    "formatted_description": "威力：20→40"
   },
   "うずしお": {
     "cells": [
       "うずしお",
       "威力：15→35命中：70→85"
     ],
-    "description": "威力：15→35命中：70→85"
+    "description": "威力：15→35命中：70→85",
+    "formatted_description": "威力：15→35命中：70→85"
   },
   "ねこだまし": {
     "cells": [
       "ねこだまし",
       "優先度：+1→+3効果：非接触→接触"
     ],
-    "description": "優先度：+1→+3効果：非接触→接触"
+    "description": "優先度：+1→+3効果：非接触→接触",
+    "formatted_description": "優先度：+1→+3効果：非接触→接触"
   },
   "さわぐ": {
     "cells": [
       "さわぐ",
       "威力：50→90"
     ],
-    "description": "威力：50→90"
+    "description": "威力：50→90",
+    "formatted_description": "威力：50→90"
   },
   "たくわえる": {
     "cells": [
       "たくわえる",
       "PP：10→20"
     ],
-    "description": "PP：10→20"
+    "description": "PP：10→20",
+    "formatted_description": "PP：10→20"
   },
   "じゅうでん": {
     "cells": [
       "じゅうでん",
       "効果：なし→特防↑"
     ],
-    "description": "効果：なし→特防↑"
+    "description": "効果：なし→特防↑",
+    "formatted_description": "効果：なし→特防↑"
   },
   "ダイビング": {
     "cells": [
       "ダイビング",
       "威力：60→80"
     ],
-    "description": "威力：60→80"
+    "description": "威力：60→80",
+    "formatted_description": "威力：60→80"
   },
   "オーバーヒート": {
     "cells": [
       "オーバーヒート",
       "効果：接触→非接触"
     ],
-    "description": "効果：接触→非接触"
+    "description": "効果：接触→非接触",
+    "formatted_description": "効果：接触→非接触"
   },
   "すなじごく": {
     "cells": [
       "すなじごく",
       "威力：15→35命中：70→85"
     ],
-    "description": "威力：15→35命中：70→85"
+    "description": "威力：15→35命中：70→85",
+    "formatted_description": "威力：15→35命中：70→85"
   },
   "タネマシンガン": {
     "cells": [
       "タネマシンガン",
       "威力：10→25"
     ],
-    "description": "威力：10→25"
+    "description": "威力：10→25",
+    "formatted_description": "威力：10→25"
   },
   "つららばり": {
     "cells": [
       "つららばり",
       "威力：10→25"
     ],
-    "description": "威力：10→25"
+    "description": "威力：10→25",
+    "formatted_description": "威力：10→25"
   },
   "ほしがる": {
     "cells": [
       "ほしがる",
       "威力：40→60効果：非接触→接触"
     ],
-    "description": "威力：40→60効果：非接触→接触"
+    "description": "威力：40→60効果：非接触→接触",
+    "formatted_description": "威力：40→60効果：非接触→接触"
   },
   "ボルテッカー": {
     "cells": [
       "ボルテッカー",
       "効果：反動1/3→反動1/3　麻痺10%"
     ],
-    "description": "効果：反動1/3→反動1/3　麻痺10%"
+    "description": "効果：反動1/3→反動1/3　麻痺10%",
+    "formatted_description": "効果：反動1/3→反動1/3　麻痺10%"
   },
   "リーフブレード": {
     "cells": [
       "リーフブレード",
       "威力：70→90"
     ],
-    "description": "威力：70→90"
+    "description": "威力：70→90",
+    "formatted_description": "威力：70→90"
   },
   "ロックブラスト": {
     "cells": [
       "ロックブラスト",
       "命中：80→90"
     ],
-    "description": "命中：80→90"
+    "description": "命中：80→90",
+    "formatted_description": "命中：80→90"
   },
   "はめつのねがい": {
     "cells": [
       "はめつのねがい",
       "威力：120→140命中：85→100"
     ],
-    "description": "威力：120→140命中：85→100"
+    "description": "威力：120→140命中：85→100",
+    "formatted_description": "威力：120→140命中：85→100"
   }
 }
