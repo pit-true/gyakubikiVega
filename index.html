@@ -27424,18 +27424,50 @@ document.getElementById("pokemonInput").addEventListener("input", function () {
   if (word.length < 2) return;
 
   pokemonTimer = setTimeout(() => {
-    const p = pokemonData.find(p =>
-      typeof p.name === "string" && p.name.includes(word)
+    const hit = pokemonData.filter(p =>
+      p.name.includes(word) ||
+      (p.hiragana && p.hiragana.includes(word)) ||
+      (p.romaji && p.romaji.toLowerCase().includes(word.toLowerCase()))
     );
 
-    if (!p || !Array.isArray(p.moves)) {
+    if (hit.length === 0) {
       result.innerHTML = "<li>候補なし</li>";
       return;
     }
 
-    p.moves.forEach(m => {
+    const found = hit[0];
+    if (!Array.isArray(found.moves) || found.moves.length === 0) {
+      result.innerHTML = "<li>技データなし</li>";
+      return;
+    }
+
+    found.moves.forEach(moveName => {
       const li = document.createElement("li");
-      li.textContent = m;
+      const span = document.createElement("span");
+      span.textContent = moveName;
+      span.className = "move-name";
+      
+      // Check if this move has details
+      if (moveDetails[moveName]) {
+        span.className += " expandable";
+        span.style.cursor = "pointer";
+        
+        // Create detail div
+        const detailDiv = document.createElement("div");
+        detailDiv.className = "move-detail";
+        detailDiv.textContent = moveDetails[moveName].description;
+        
+        // Toggle on click
+        span.addEventListener("click", function() {
+          detailDiv.classList.toggle("show");
+        });
+        
+        li.appendChild(span);
+        li.appendChild(detailDiv);
+      } else {
+        li.appendChild(span);
+      }
+      
       result.appendChild(li);
     });
   }, 300);
