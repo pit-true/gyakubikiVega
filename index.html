@@ -128,7 +128,17 @@ document.getElementById("pokemonInput").addEventListener("input", function () {
     found.moves.forEach(moveName => {
       const li = document.createElement("li");
       const span = document.createElement("span");
-      span.textContent = moveName;
+
+      // Check if move is inherited from pre-evolution
+      const moveSource = found.move_sources ? found.move_sources[moveName] : null;
+      const isInherited = moveSource && moveSource !== found.name;
+
+      // Display move name with source if inherited
+      if (isInherited) {
+        span.textContent = `${moveName}(${moveSource})`;
+      } else {
+        span.textContent = moveName;
+      }
       span.className = "move-name";
 
       // Check if this move has details
