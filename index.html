@@ -18,6 +18,13 @@
 </div>
 
 <div class="box">
+  <h2>🔍 技AND検索 → 両方覚えるポケモン</h2>
+  <input id="andMove1" placeholder="技1（例：れんごく）">
+  <input id="andMove2" placeholder="技2（例：しんそく）">
+  <ul id="andResult"></ul>
+</div>
+
+<div class="box">
   <h2>🔍 ポケモン名 → 覚える技</h2>
   <input id="pokemonInput" placeholder="例：アスフィア">
   <ul id="pokemonResult"></ul>
@@ -92,6 +99,54 @@ document.getElementById("moveInput").addEventListener("input", function () {
     });
   }, 300);
 });
+
+let andTimer = null;
+
+function searchAnd() {
+  clearTimeout(andTimer);
+  const word1 = document.getElementById('andMove1').value.trim();
+  const word2 = document.getElementById('andMove2').value.trim();
+  const result = document.getElementById('andResult');
+  result.innerHTML = '';
+
+  if (word1.length < 2 || word2.length < 2) return;
+
+  andTimer = setTimeout(() => {
+    if (pokemonData.length === 0) {
+      result.innerHTML = '<li>データ読み込み中...</li>';
+      return;
+    }
+
+    const hit = pokemonData.filter(p =>
+      Array.isArray(p.moves) &&
+      p.moves.some(m => m === word1 || m.includes(word1)) &&
+      p.moves.some(m => m === word2 || m.includes(word2))
+    );
+
+    if (hit.length === 0) {
+      result.innerHTML = '<li>候補なし</li>';
+      return;
+    }
+
+    hit.forEach(p => {
+      const li = document.createElement('li');
+      if (p.url) {
+        const a = document.createElement('a');
+        a.href = p.url;
+        a.textContent = p.name;
+        a.className = 'pokemon-link';
+        a.target = '_blank';
+        li.appendChild(a);
+      } else {
+        li.textContent = p.name;
+      }
+      result.appendChild(li);
+    });
+  }, 300);
+}
+
+document.getElementById('andMove1').addEventListener('input', searchAnd);
+document.getElementById('andMove2').addEventListener('input', searchAnd);
 
 // ========= ポケモン → 技 =========
 document.getElementById("pokemonInput").addEventListener("input", function () {
